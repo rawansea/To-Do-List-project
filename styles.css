@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #1e1e1e;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    color: #28afaf;
+}
+
+.sticky-note {
+    background: #fc9fe5;
+    color: #222;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 15px auto;
+    text-align: left;
+    position: relative;
+    transform: rotate(-2deg);
+    transition: transform 0.2s ease-in-out;
+}
+
+.sticky-note:hover {
+    transform: rotate(0deg);
+}
+
+.sticky-note h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+
+.sticky-note textarea {
+    width: 100%;
+    height: 80px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #222;
+    padding: 5px;
+    resize: none;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+#taskInput {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #222;
+    color: white;
+}
+
+#addButton {
+    padding: 10px 15px;
+    background: #28afaf;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background: #444;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.deleteBtn {
+    background: rgb(252, 203, 203);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#motivation {
+    font-style: italic;
+    margin-top: 10px;
+    color: white;
+}
